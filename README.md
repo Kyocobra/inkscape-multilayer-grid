@@ -1,6 +1,6 @@
 # inkscape-multilayer-grid
 ## Arrange objects into grids that overflow onto new layers (Inkscape 1.0.X)
-I use this for arranging 50+ playing card scans into 3x3 grids onto several layers. I use another extension ([inkscape-export-layers](https://github.com/Kyocobra/inkscape-export-layers/edit/main/README.md)) to export these into PDFs for printing.
+I use this for arranging 50+ playing card scans into 3x3 grids onto several layers. I use [inkscape-export-layers](https://github.com/Kyocobra/inkscape-export-layers) to export these into layers PDFs for printing.
 
 ## Installation
 - **Install this extension** by dropping the .inx and .py files directly into: C:\Users\John Smith\AppData\Roaming\inkscape\extensions
