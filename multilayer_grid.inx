@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <name translatable="no">Multilayer Grid</name>
+    <id>org.kyocobra.multilayer_grid</id>
+    <dependency type="executable" location="extensions">multilayer_grid.py</dependency>
+	<param name="help" type="description">Organize objects into grids that overflow onto multiple layers!</param>
+    <param name="rows" type="int" gui-text="Rows">3</param>
+    <param name="cols" type="int" gui-text="Cols">3</param>
+    <param name="max_layers" type="int" gui-text="Max layers to process (prevents crashes)">5</param>
+    <param name="delete_source" type="boolean" gui-text="Delete source elements"></param>
+    <effect needs-live-preview="false">
+        <object-type>all</object-type>
+        <effects-menu>
+          <submenu name="Arrange"/>
+        </effects-menu>
+    </effect>
+    <script>
+        <command location="extensions" interpreter="python">multilayer_grid.py</command>
+        <!-- <command location="extensions" interpreter="C:\Users\Kyle Hunady\AppData\Local\Programs\Python\Python39\python.exe">exporter.py</command> -->
+    </script>
+</inkscape-extension>
+    
